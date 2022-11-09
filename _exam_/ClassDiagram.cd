@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Question">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Question::QTYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>exam.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Question::QSTATE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>exam.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAoAACAAAAAABBAIAUIAQAAAAACCIAEAAAAAIIAAIA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="selectionQuestion">
+    <Position X="6" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oEgBAAAAAAQAAgAAQEAAAAAAAAAAAgAEAAAAIAAAgRA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="judgeQuestion">
+    <Position X="8.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAAAAAAAAAAAAAQEAAAAAAAAAQAgAQAAAAAAAQgAA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="completionQuestion">
+    <Position X="11.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAAAAAAAAAAAAAQEAAAAAAAAIAAgAAAAAAAAAA4AA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="User">
+    <Position X="3.75" Y="7.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="User::UTYPE" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>exam.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAEBAgAAAAAAAAgAAACAACgABgAAAAAAAAAAA5gAABA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Student">
+    <Position X="6.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAQAAAABAAAAAAAAAAAAAAAFAgAQACAAAgAAA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Teacher">
+    <Position X="1" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAQAAAA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Administrator">
+    <Position X="1" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAEAAABAIAAAAAAAAAA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Exam">
+    <Position X="13.5" Y="6" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Exam::UTYPE">
+        <TypeIdentifier>
+          <NewMemberFileName>exam.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Exam::QTYPE">
+        <TypeIdentifier>
+          <NewMemberFileName>exam.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Exam::QSTATE">
+        <TypeIdentifier>
+          <NewMemberFileName>exam.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="Exam::QSRC">
+        <TypeIdentifier>
+          <NewMemberFileName>exam.h</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>IBAgSBAEQEwADAVAAQ4oAgxZgQDAChBoAQAEEAAhkaA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Option">
+    <Position X="16" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Typedef Name="opt" Collapsed="true">
+    <Position X="16" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="q" Collapsed="true">
+    <Position X="8.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="sq" Collapsed="true">
+    <Position X="6" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="jq" Collapsed="true">
+    <Position X="8.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="cq" Collapsed="true">
+    <Position X="11.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="u" Collapsed="true">
+    <Position X="3.75" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="stu" Collapsed="true">
+    <Position X="6.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="teach" Collapsed="true">
+    <Position X="1" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Typedef Name="admin" Collapsed="true">
+    <Position X="1" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Typedef>
+  <Enum Name="EXIT_INFO">
+    <Position X="16" Y="6" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gAARAAAAAAABAAQAAAAAAAAAAACAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>exam.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

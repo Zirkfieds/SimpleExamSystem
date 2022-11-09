@@ -1,0 +1,15 @@
+
+*.ipch
+*.tlog
+*.obj
+*.idb
+*.pdb
+*.log
+.vs/SimpleExamSystem/v16/.suo
+.vs/_exam_/v16/.suo
+*.db
+*.txt
+*.exe
+*.iobj
+*.ipdb
+*.ilk
